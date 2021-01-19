@@ -1,0 +1,104 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.sidebarr {
+  height: 100%;
+  width: 250px;
+  background: rgb(178, 187, 190);
+  margin-top: 50px;
+}
+
+.sidebarr #image {
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 15%;
+  left: 75px;
+}
+.sidebarr #empname {
+  position: absolute;
+  top: 31.5%;
+  left: 85px;
+  color: rgb(70, 58, 58);
+  font-weight: bold;
+}
+.navbarlist {
+  height: auto;
+  padding: 0;
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  width: 250px;
+}
+.navbarlist .row {
+  width: 100%;
+  height: 60px;
+  color: rgb(70, 58, 58);
+  list-style-type: none;
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.navbarlist .row:hover {
+  cursor: pointer;
+  background: #58a8dd;
+  color: whitesmoke;
+  transition: 0.2s ease;
+  font-weight: bold;
+}
+
+.navbarlist #active {
+  border-top: rgb(44, 43, 43) 1px solid;
+  border-bottom: rgb(44, 43, 43) 1px solid;
+}
+.navbarlist #active:hover {
+  background: rgb(178, 187, 190);
+  color: rgb(78, 73, 73);
+}
+.row #icon {
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+.row #title {
+  flex: 70%;
+}
+.content {
+  position: absolute;
+  top: 17%;
+  left: 17%;
+  width: 1300px;
+  height: 600px;
+}
+.content #descrip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1px;
+  position: absolute;
+  top: 65%;
+  left: 40%;
+}
+.content #cup{
+  position: absolute;
+  top: 25%;
+  left:40%
+
+}
+.content #month{
+  position:absolute;
+  top:auto;
+  line-height: 0px;
+  align-items: center;
+  left:29%;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
